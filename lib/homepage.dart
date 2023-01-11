@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'graph_temp.dart';
@@ -79,7 +81,7 @@ class HomeScreen extends State<MyHomePage> {
                 height: 30,
                 width: 30,
               ),
-              //GAS
+              //SOUND
               Row(
                 //Row 1
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -111,7 +113,7 @@ class HomeScreen extends State<MyHomePage> {
                     child: Container(
                       alignment: Alignment.center,
                       child: Text(
-                        '$sound',
+                        '${lolS.toStringAsFixed(2)}',
                         style: const TextStyle(
                           color: Colors.green,
                           fontSize: 30,
@@ -175,7 +177,7 @@ class HomeScreen extends State<MyHomePage> {
                     child: Container(
                       alignment: Alignment.center,
                       child: Text(
-                        '$temp',
+                        '${lol.toStringAsFixed(2)}',
                         style: const TextStyle(
                           color: Colors.green,
                           fontSize: 30,
@@ -207,10 +209,43 @@ class HomeScreen extends State<MyHomePage> {
                 indent: 30,
                 endIndent: 30,
               ),
+              ElevatedButton(
+                onPressed: () {
+                  UpdateTemp();
+                },
+                child: const Text('Update Data'),
+              ),
             ],
           ),
         ),
       ),
     );
+  }
+
+  double lol = 0;
+  double lolS = 0;
+  void UpdateTemp() {
+    if (temp == 1) {
+      //OFF
+      setState(() {
+        lol = getRandom() + 22;
+      });
+    } else if (temp == 0) {
+      setState(() {
+        lol = 0;
+      });
+    } else {
+      //ON
+      setState(() {
+        lol = getRandom() + 40.5;
+      });
+    }
+    lolS = getRandom() + 65;
+  }
+
+  double getRandom() {
+    double randomDec = Random().nextDouble();
+    double randomNumber = randomDec;
+    return randomNumber;
   }
 }
