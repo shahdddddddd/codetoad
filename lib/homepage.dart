@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'graph_temp.dart';
@@ -240,7 +239,7 @@ class HomeScreen extends State<MyHomePage> {
         lol = getRandom() + 40.5;
       });
     }
-    lolS = getRandom() + 65;
+    lolS = getRandom() + 70;
   }
 
   double getRandom() {
