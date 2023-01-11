@@ -44,43 +44,44 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyD8p7Ju58I0eAfJ3GA8knRMC-h_zyMRuGw',
-    appId: '1:922502154026:web:d7e5a5d7efe890a8cfc053',
-    messagingSenderId: '922502154026',
-    projectId: 'code-for-mr-toad',
-    authDomain: 'code-for-mr-toad.firebaseapp.com',
-    databaseURL: 'https://code-for-mr-toad-default-rtdb.firebaseio.com',
-    storageBucket: 'code-for-mr-toad.appspot.com',
+    apiKey: 'AIzaSyBsa9e3Rvc1DEscPUp_KmLtOSRJE6wkuME',
+    appId: '1:36772563161:web:a2db54dd85e3ae622a16c8',
+    messagingSenderId: '36772563161',
+    projectId: 'mr-toad-caf7c',
+    authDomain: 'mr-toad-caf7c.firebaseapp.com',
+    databaseURL: 'https://mr-toad-caf7c-default-rtdb.europe-west1.firebasedatabase.app',
+    storageBucket: 'mr-toad-caf7c.appspot.com',
+    measurementId: 'G-60WMWB2YTT',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCQ10qrN5_xLnV4T9qVVW-N3fSgINWjIKU',
-    appId: '1:922502154026:android:e6134f5ba093b273cfc053',
-    messagingSenderId: '922502154026',
-    projectId: 'code-for-mr-toad',
-    databaseURL: 'https://code-for-mr-toad-default-rtdb.firebaseio.com',
-    storageBucket: 'code-for-mr-toad.appspot.com',
+    apiKey: 'AIzaSyDZ3ypd_ht9PML-wzLebyfqT8Z4wwzkiBQ',
+    appId: '1:36772563161:android:5ac49e20c50334d02a16c8',
+    messagingSenderId: '36772563161',
+    projectId: 'mr-toad-caf7c',
+    databaseURL: 'https://mr-toad-caf7c-default-rtdb.europe-west1.firebasedatabase.app',
+    storageBucket: 'mr-toad-caf7c.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBGqbXo8t0iaGl4qmO4XdUmjFrXdwfeZBs',
-    appId: '1:922502154026:ios:e45b5750ec59cc26cfc053',
-    messagingSenderId: '922502154026',
-    projectId: 'code-for-mr-toad',
-    databaseURL: 'https://code-for-mr-toad-default-rtdb.firebaseio.com',
-    storageBucket: 'code-for-mr-toad.appspot.com',
-    iosClientId: '922502154026-co8ivv2ej2lqqlv9tak3gbcvtij8olco.apps.googleusercontent.com',
+    apiKey: 'AIzaSyA57gsye6bWVSlq1KE1NHkENQvzp_X3bns',
+    appId: '1:36772563161:ios:0caa3e837f8999c42a16c8',
+    messagingSenderId: '36772563161',
+    projectId: 'mr-toad-caf7c',
+    databaseURL: 'https://mr-toad-caf7c-default-rtdb.europe-west1.firebasedatabase.app',
+    storageBucket: 'mr-toad-caf7c.appspot.com',
+    iosClientId: '36772563161-918lqmurcpgrg4uuunlv0oepibnpf5bs.apps.googleusercontent.com',
     iosBundleId: 'com.example.codetoad',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBGqbXo8t0iaGl4qmO4XdUmjFrXdwfeZBs',
-    appId: '1:922502154026:ios:e45b5750ec59cc26cfc053',
-    messagingSenderId: '922502154026',
-    projectId: 'code-for-mr-toad',
-    databaseURL: 'https://code-for-mr-toad-default-rtdb.firebaseio.com',
-    storageBucket: 'code-for-mr-toad.appspot.com',
-    iosClientId: '922502154026-co8ivv2ej2lqqlv9tak3gbcvtij8olco.apps.googleusercontent.com',
+    apiKey: 'AIzaSyA57gsye6bWVSlq1KE1NHkENQvzp_X3bns',
+    appId: '1:36772563161:ios:0caa3e837f8999c42a16c8',
+    messagingSenderId: '36772563161',
+    projectId: 'mr-toad-caf7c',
+    databaseURL: 'https://mr-toad-caf7c-default-rtdb.europe-west1.firebasedatabase.app',
+    storageBucket: 'mr-toad-caf7c.appspot.com',
+    iosClientId: '36772563161-918lqmurcpgrg4uuunlv0oepibnpf5bs.apps.googleusercontent.com',
     iosBundleId: 'com.example.codetoad',
   );
 }

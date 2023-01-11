@@ -105,9 +105,11 @@ class GraphScreen extends State<TempGraph> {
   double lol = 0;
   int time = 8;
   void updateDataSource(Timer timer) {
-    if (temp == 0) {
+    if (temp == 1) {
       //OFF
       lol = getRandom() + 22;
+    } else if (temp == 0) {
+      lol = 0;
     } else {
       //ON
       lol = getRandom() + 40.5;

@@ -1,77 +1,41 @@
 {
   "project_info": {
-    "project_number": "922502154026",
-    "firebase_url": "https://code-for-mr-toad-default-rtdb.firebaseio.com",
-    "project_id": "code-for-mr-toad",
-    "storage_bucket": "code-for-mr-toad.appspot.com"
+    "project_number": "36772563161",
+    "firebase_url": "https://mr-toad-caf7c-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "mr-toad-caf7c",
+    "storage_bucket": "mr-toad-caf7c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:922502154026:android:458881ebe1668600cfc053",
-        "android_client_info": {
-          "package_name": "com.example.codefortoad"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "922502154026-pnbu947qvoj3hjbvhuddan7ujh2vp37a.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCQ10qrN5_xLnV4T9qVVW-N3fSgINWjIKU"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "922502154026-pnbu947qvoj3hjbvhuddan7ujh2vp37a.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "922502154026-l5utqqiq9nrfgqa5qab6ocibulfgqo92.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.newproject"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:922502154026:android:e6134f5ba093b273cfc053",
+        "mobilesdk_app_id": "1:36772563161:android:5ac49e20c50334d02a16c8",
         "android_client_info": {
           "package_name": "com.example.codetoad"
         }
       },
       "oauth_client": [
         {
-          "client_id": "922502154026-pnbu947qvoj3hjbvhuddan7ujh2vp37a.apps.googleusercontent.com",
+          "client_id": "36772563161-069osc4ip3id4u17ilnhkhj7ljqg7ggq.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCQ10qrN5_xLnV4T9qVVW-N3fSgINWjIKU"
+          "current_key": "AIzaSyDZ3ypd_ht9PML-wzLebyfqT8Z4wwzkiBQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "922502154026-pnbu947qvoj3hjbvhuddan7ujh2vp37a.apps.googleusercontent.com",
+              "client_id": "36772563161-069osc4ip3id4u17ilnhkhj7ljqg7ggq.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "922502154026-l5utqqiq9nrfgqa5qab6ocibulfgqo92.apps.googleusercontent.com",
+              "client_id": "36772563161-q369r6uqbqnsfh29t4f0s1fkvst7iiqj.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.newproject"
+                "bundle_id": "com.example.mrToad"
               }
             }
           ]
@@ -80,34 +44,34 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:922502154026:android:05a38ee9a50fcd90cfc053",
+        "mobilesdk_app_id": "1:36772563161:android:3c3ae8854f7a25682a16c8",
         "android_client_info": {
-          "package_name": "com.example.newproject"
+          "package_name": "com.example.mr_toad"
         }
       },
       "oauth_client": [
         {
-          "client_id": "922502154026-pnbu947qvoj3hjbvhuddan7ujh2vp37a.apps.googleusercontent.com",
+          "client_id": "36772563161-069osc4ip3id4u17ilnhkhj7ljqg7ggq.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCQ10qrN5_xLnV4T9qVVW-N3fSgINWjIKU"
+          "current_key": "AIzaSyDZ3ypd_ht9PML-wzLebyfqT8Z4wwzkiBQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "922502154026-pnbu947qvoj3hjbvhuddan7ujh2vp37a.apps.googleusercontent.com",
+              "client_id": "36772563161-069osc4ip3id4u17ilnhkhj7ljqg7ggq.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "922502154026-l5utqqiq9nrfgqa5qab6ocibulfgqo92.apps.googleusercontent.com",
+              "client_id": "36772563161-q369r6uqbqnsfh29t4f0s1fkvst7iiqj.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.newproject"
+                "bundle_id": "com.example.mrToad"
               }
             }
           ]
